@@ -1,0 +1,50 @@
+.second-slide {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(image/citycafe.jpg);
+  background-size: cover;
+  position: relative;
+}
+.second-slide .blurring {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  width: 100%;
+  height: 100%;
+}
+.second-slide .wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.second-slide .wrapper .text-box h2 {
+  background: #8ca854;
+  background: linear-gradient(to right, #8ca854 0%, #3d8c24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 88px;
+  font-weight: bold;
+}
+.second-slide .wrapper .text-box p {
+  background: #8ca854;
+  background: linear-gradient(to right, #8ca854 0%, #3d8c24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: white;
+  font-size: 50px;
+  font-weight: 700;
+}
+.second-slide .wrapper .image-box {
+  width: 702px;
+  height: 835px;
+}
+.second-slide .wrapper .image-box img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=second-section.css.map */
