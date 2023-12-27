@@ -1,0 +1,112 @@
+.third-slide {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+.third-slide .wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 20px;
+}
+.third-slide .wrapper .text-box h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c73ff;
+}
+.third-slide .wrapper .text-box h2 .sapm-box {
+  color: black;
+  font-size: 46px;
+}
+.third-slide .wrapper .text-box p {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 19px;
+  font-weight: 700;
+}
+.third-slide .wrapper .text-box span {
+  font-size: 16px;
+}
+.third-slide .wrapper .gird-box {
+  width: 98%;
+  height: 100%;
+  display: grid;
+  padding-top: 115px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  padding-top: 50px;
+}
+.third-slide .wrapper .gird-box .cargo {
+  border-radius: 5px;
+  height: 410px;
+  width: 335px;
+  grid-area: 1/1/2/2;
+  margin-top: 40px;
+}
+.third-slide .wrapper .gird-box .cargo .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.third-slide .wrapper .gird-box .cargo .wrapper .imag img {
+  width: 336px;
+  height: 183px;
+}
+.third-slide .wrapper .gird-box .cargo .wrapper .text-box p {
+  font-size: 20px;
+}
+.third-slide .wrapper .gird-box .cargo .wrapper .text-box span {
+  font-size: 13px;
+}
+.third-slide .wrapper .gird-box .cargo .wrapper .text-box a {
+  padding-top: 10px;
+}
+.third-slide .wrapper .gird-box .cargo .wrapper .text-box .read-box {
+  padding-top: 30px;
+  color: #2c73ff;
+}
+.third-slide .wrapper .gird-box .port {
+  grid-area: 1/2/2/3;
+}
+.third-slide .wrapper .gird-box .port .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  border-radius: 5px;
+  height: 451px;
+}
+.third-slide .wrapper .gird-box .port .wrapper .imag img {
+  width: 328px;
+  height: 244px;
+}
+.third-slide .wrapper .gird-box .port .wrapper .text-box a {
+  padding-top: 10px;
+}
+.third-slide .wrapper .gird-box .port .wrapper .text-box .read-box {
+  padding-top: 30px;
+  color: #2c73ff;
+}
+.third-slide .wrapper .gird-box .ship {
+  grid-area: 1/3/2/4;
+}
+.third-slide .wrapper .gird-box .ship .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  height: 370px;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.third-slide .wrapper .gird-box .ship .wrapper .imag img {
+  width: 336px;
+  height: 183px;
+}
+.third-slide .wrapper .gird-box .ship .wrapper .text-box a {
+  font-size: 15px;
+}
+.third-slide .wrapper .gird-box .ship .wrapper .text-box .read-box {
+  padding-top: 30px;
+  color: #2c73ff;
+}/*# sourceMappingURL=third-section.css.map */

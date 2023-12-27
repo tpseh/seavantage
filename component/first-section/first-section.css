@@ -1,14 +1,12 @@
 .first-section {
-  scroll-snap-align: start;
   display: flex;
   justify-content: center;
-  position: relative;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 }
 .first-section > .video-box {
   width: 100%;
-  height: 100%;
+  height: 98%;
 }
 .first-section > .video-box video {
   width: 100%;
@@ -26,11 +24,12 @@
   margin: 0 auto;
   position: absolute;
   top: -65px;
-  left: 400px;
+  left: 436px;
   line-height: 79px;
 }
 .first-section > .wrapper .text {
   text-align: center;
+  padding-top: 385px;
 }
 .first-section > .wrapper .text h2 {
   font-size: 20px;
@@ -55,4 +54,25 @@
   color: white;
   background-color: transparent;
   font-weight: bold;
+}
+.first-section > .wrapper .text .scroll-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+  padding-top: 164px;
+  animation-name: opa;
+  animation-direction: 2s;
+}
+
+@keyframes opa {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.6;
+  }
+  40% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=first-section.css.map */

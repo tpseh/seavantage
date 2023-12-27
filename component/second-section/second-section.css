@@ -1,50 +1,110 @@
 .second-slide {
-  scroll-snap-align: start;
   width: 100%;
-  height: 100%;
+  height: 900px;
   display: flex;
   justify-content: center;
-  background-image: url(image/citycafe.jpg);
-  background-size: cover;
-  position: relative;
-}
-.second-slide .blurring {
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: rgba(255, 255, 255, 0.25);
-  width: 100%;
-  height: 100%;
 }
 .second-slide .wrapper {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
   gap: 20px;
 }
 .second-slide .wrapper .text-box h2 {
-  background: #8ca854;
-  background: linear-gradient(to right, #8ca854 0%, #3d8c24 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 88px;
+  text-align: center;
+  font-size: 18px;
   font-weight: bold;
+  color: #2c73ff;
+}
+.second-slide .wrapper .text-box h2 .sapm-box {
+  color: black;
+  font-size: 46px;
 }
 .second-slide .wrapper .text-box p {
-  background: #8ca854;
-  background: linear-gradient(to right, #8ca854 0%, #3d8c24 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: white;
-  font-size: 50px;
+  text-align: center;
+  font-size: 19px;
   font-weight: 700;
 }
-.second-slide .wrapper .image-box {
-  width: 702px;
-  height: 835px;
+.second-slide .wrapper .gird-box {
+  width: 98%;
+  height: 100%;
+  display: grid;
+  padding-top: 115px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 11px;
+  grid-row-gap: 1px;
 }
-.second-slide .wrapper .image-box img {
-  width: 100%;
-  height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+.second-slide .wrapper .gird-box .cargo {
+  border-radius: 5px;
+  border: 1px solid;
+  height: 410px;
+  width: 335px;
+  grid-area: 1/1/2/2;
+}
+.second-slide .wrapper .gird-box .cargo .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.second-slide .wrapper .gird-box .cargo .wrapper .imag img {
+  width: 120px;
+  height: 120px;
+}
+.second-slide .wrapper .gird-box .cargo .wrapper .text-box p {
+  font-size: 20px;
+}
+.second-slide .wrapper .gird-box .cargo .wrapper .text-box span {
+  font-size: 13px;
+}
+.second-slide .wrapper .gird-box .cargo .wrapper .text-box a {
+  padding-top: 10px;
+}
+.second-slide .wrapper .gird-box .cargo .wrapper .text-box .read-box {
+  padding-top: 30px;
+  color: #2c73ff;
+}
+.second-slide .wrapper .gird-box .port {
+  grid-area: 1/2/2/3;
+}
+.second-slide .wrapper .gird-box .port .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  height: 370px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.second-slide .wrapper .gird-box .port .wrapper .imag img {
+  width: 120px;
+  height: 120px;
+}
+.second-slide .wrapper .gird-box .port .wrapper .text-box a {
+  padding-top: 10px;
+}
+.second-slide .wrapper .gird-box .port .wrapper .text-box .read-box {
+  padding-top: 30px;
+  color: #2c73ff;
+}
+.second-slide .wrapper .gird-box .ship {
+  grid-area: 1/3/2/4;
+}
+.second-slide .wrapper .gird-box .ship .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 328px;
+  height: 370px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.second-slide .wrapper .gird-box .ship .wrapper .imag img {
+  width: 120px;
+  height: 120px;
+}
+.second-slide .wrapper .gird-box .ship .wrapper .text-box a {
+  padding-top: 10px;
+}
+.second-slide .wrapper .gird-box .ship .wrapper .text-box .read-box {
+  padding-top: 30px;
+  color: #2c73ff;
 }/*# sourceMappingURL=second-section.css.map */

@@ -1,13 +1,12 @@
 .first-section {
-	scroll-snap-align: start;
 	display: flex;
 	justify-content: center;
-	position: relative;
-	width: 100vw;
+	// position: relative;
+	width: 100%;
 	height: 100vh;
 	> .video-box {
 		width: 100%;
-		height: 100%;
+		height: 98%;
 		video {
 			width: 100%;
 			height: 100%;
@@ -24,11 +23,12 @@
 		margin: 0 auto;
 		position: absolute;
 		top: -65px;
-		left: 400px;
+		left: 436px;
 		line-height: 79px;
 
 		.text {
 			text-align: center;
+			padding-top: 385px;
 			h2 {
 				font-size: 20px;
 				font-weight: bolder;
@@ -53,6 +53,26 @@
 				background-color: transparent;
 				font-weight: bold;
 			}
+			.scroll-box {
+				display: flex;
+				flex-direction: column;
+				justify-content: end;
+				color: white;
+				padding-top: 164px;
+				animation-name: opa;
+				animation-direction: 2s;
+			}
 		}
+	}
+}
+@keyframes opa {
+	0% {
+		opacity: 0;
+	}
+	20% {
+		opacity: 0.6;
+	}
+	40% {
+		opacity: 1;
 	}
 }
