@@ -1,6 +1,5 @@
 .second-slide {
   width: 100%;
-  height: 900px;
   display: flex;
   justify-content: center;
 }
@@ -25,6 +24,32 @@
   text-align: center;
   font-size: 19px;
   font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .second-slide .wrapper .text-box h2 {
+    font-size: 12px;
+  }
+  .second-slide .wrapper .text-box h2 .sapm-box {
+    font-size: 16px;
+  }
+  .second-slide .wrapper .text-box p {
+    font-size: 8px;
+  }
+}
+.second-slide .wrapper .cargo:hover {
+  background-color: #eee;
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+.second-slide .wrapper .port:hover {
+  background-color: #eee;
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
+}
+.second-slide .wrapper .ship:hover {
+  background-color: #eee;
+  transform: scale(1.1, 1.1);
+  cursor: pointer;
 }
 .second-slide .wrapper .gird-box {
   width: 98%;
@@ -66,6 +91,7 @@
 }
 .second-slide .wrapper .gird-box .port {
   grid-area: 1/2/2/3;
+  height: 410px;
 }
 .second-slide .wrapper .gird-box .port .wrapper {
   display: flex;
@@ -88,6 +114,7 @@
 }
 .second-slide .wrapper .gird-box .ship {
   grid-area: 1/3/2/4;
+  height: 410px;
 }
 .second-slide .wrapper .gird-box .ship .wrapper {
   display: flex;
@@ -107,4 +134,12 @@
 .second-slide .wrapper .gird-box .ship .wrapper .text-box .read-box {
   padding-top: 30px;
   color: #2c73ff;
+}
+@media screen and (max-width: 768px) {
+  .second-slide .wrapper .gird-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=second-section.css.map */

@@ -1,6 +1,5 @@
 .third-slide {
   width: 100%;
-  height: 900px;
   display: flex;
   justify-content: center;
 }
@@ -17,9 +16,19 @@
   font-weight: bold;
   color: #2c73ff;
 }
+@media screen and (max-width: 768px) {
+  .third-slide .wrapper .text-box h2 {
+    font-size: 10px;
+  }
+}
 .third-slide .wrapper .text-box h2 .sapm-box {
   color: black;
   font-size: 46px;
+}
+@media screen and (max-width: 768px) {
+  .third-slide .wrapper .text-box h2 .sapm-box {
+    font-size: 20px;
+  }
 }
 .third-slide .wrapper .text-box p {
   text-align: center;
@@ -88,6 +97,11 @@
   padding-top: 30px;
   color: #2c73ff;
 }
+@media screen and (max-width: 768px) {
+  .third-slide .wrapper .gird-box .port .wrapper .text-box p span {
+    font-size: 11px;
+  }
+}
 .third-slide .wrapper .gird-box .ship {
   grid-area: 1/3/2/4;
 }
@@ -109,4 +123,17 @@
 .third-slide .wrapper .gird-box .ship .wrapper .text-box .read-box {
   padding-top: 30px;
   color: #2c73ff;
+}
+@media screen and (max-width: 768px) {
+  .third-slide .wrapper .gird-box .ship .wrapper .text-box p span {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .third-slide .wrapper .gird-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=third-section.css.map */

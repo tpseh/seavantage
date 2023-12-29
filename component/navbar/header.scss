@@ -15,6 +15,19 @@ header {
 		gap: 320px;
 		margin-top: -5px;
 		background-color: white;
+		white-space: nowrap;
+		.naber-box > i:hover {
+			transform: rotate(0.5turn);
+			cursor: pointer;
+		}
+		.naber-mau > i:hover {
+			transform: rotate(0.5turn);
+			cursor: pointer;
+		}
+		.naber-nay > i:hover {
+			transform: rotate(0.5turn);
+			cursor: pointer;
+		}
 		.logo-box {
 			font-size: 18px;
 			font-weight: bold;
@@ -43,6 +56,30 @@ header {
 				border-radius: 6px;
 				background-color: #2c73ff;
 				color: white;
+			}
+		}
+		.wrapper-box {
+			display: none;
+		}
+		@media screen and (max-width: 768px) {
+			.navber {
+				display: none;
+			}
+			.button {
+				display: none;
+			}
+			.wrapper-box {
+				display: flex;
+
+				ul > li::after {
+					content: "l";
+					float: right;
+					color: #9f7878;
+					padding-left: 14px;
+				}
+				ul > li:last-child::after {
+					content: "";
+				}
 			}
 		}
 	}

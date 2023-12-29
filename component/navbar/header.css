@@ -16,6 +16,19 @@ header > .wrapper {
   gap: 320px;
   margin-top: -5px;
   background-color: white;
+  white-space: nowrap;
+}
+header > .wrapper .naber-box > i:hover {
+  transform: rotate(0.5turn);
+  cursor: pointer;
+}
+header > .wrapper .naber-mau > i:hover {
+  transform: rotate(0.5turn);
+  cursor: pointer;
+}
+header > .wrapper .naber-nay > i:hover {
+  transform: rotate(0.5turn);
+  cursor: pointer;
 }
 header > .wrapper .logo-box {
   font-size: 18px;
@@ -46,4 +59,27 @@ header > .wrapper .button .svmp_button-box {
   border-radius: 6px;
   background-color: #2c73ff;
   color: white;
+}
+header > .wrapper .wrapper-box {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header > .wrapper .navber {
+    display: none;
+  }
+  header > .wrapper .button {
+    display: none;
+  }
+  header > .wrapper .wrapper-box {
+    display: flex;
+  }
+  header > .wrapper .wrapper-box ul > li::after {
+    content: "l";
+    float: right;
+    color: #9f7878;
+    padding-left: 14px;
+  }
+  header > .wrapper .wrapper-box ul > li:last-child::after {
+    content: "";
+  }
 }/*# sourceMappingURL=header.css.map */

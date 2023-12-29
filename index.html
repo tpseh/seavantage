@@ -26,6 +26,7 @@
 			rel="stylesheet"
 			href="component/third-section/third-section.css"
 		/>
+		<link rel="stylesheet" href="component/footer/footer.css">
 	</head>
 	<body>
 		<main>
@@ -37,15 +38,15 @@
 					<ul class="navber">
 						<li>
 							<a href="#"><span>솔루션</span></a>
-							<i class="fa-solid fa-chevron-down"></i>
+							<div class="naber-box" style="display: contents;"><i class="fa-solid fa-chevron-down"></i></div>
 						</li>
 						<li>
 							<a href="#"><span>회사소개</span></a>
-							<i class="fa-solid fa-chevron-down"></i>
+							<div class="naber-mau" style="display: contents;"><i class="fa-solid fa-chevron-down"></i></div>
 						</li>
 						<li>
 							<a href="#"><span>리소스</span></a>
-							<i class="fa-solid fa-chevron-down"></i>
+							<div class="naber-nay" style="display: contents;"><i class="fa-solid fa-chevron-down"></i></div>
 						</li>
 						<li>
 							<a href="#"><span>가격</span></a>
@@ -60,6 +61,19 @@
 							<i class="fa-solid fa-chevron-down"></i>
 						</div>
 						<button class="svmp_button-box">SVMP</button>
+					</div>
+					<div class="wrapper-box" style="padding-left: 165px;">
+						<div>
+							<ul style="display: flex;">
+								<li>KR</li>
+								<li style="padding-left: 10px;">EN</li>
+							</ul>
+						</div>
+						<div style="padding-left: 10px;">
+							<i class="fa-solid fa-bars"></i>
+						</div>
+
+						
 					</div>
 				</div>
 			</header>
@@ -79,11 +93,11 @@
 							가장 신뢰할 수 있는<br />
 							공급망 가시화 플랫폼
 						</p>
-						<button>무료 체험</button>
+						<button class="text-btn">무료 체험</button>
 						<button class="button-box">도입 문의</button>
 						<div class="scroll-box">
 							<samp>SCROLL</samp>
-							<div><i class="fa-solid fa-arrow-down-long"></i></div>
+							<div class="scroll-arro"><i class="fa-solid fa-arrow-down-long"></i></div>
 						</div>
 					</div>
 					
@@ -233,5 +247,29 @@
 				</div>
 			</div>
 		</section>
+		<footer>
+			<div class="footer-box">
+				<div class="footer-box-ja">
+					<h3>SeaVantage</h3>
+					<p class="footer-box-attr">서울특별시 강남구 강남대로 500, 6층 (논현동, 논현빌딩)06119</p>
+					<a href="">+82-02-3444-7302</a><a href="" class="footer-tell">+82-02-3444-7303</a>
+					<p> <a href="">sales@seavantage.com</a></p>
+				</div>
+				<div class="footer-box-ja" style="text-align: center;display: flex;gap: 15px;justify-content: center;align-items: center;">
+					<div><i class="fa-brands fa-square-instagram"></i></div>
+					<div><i class="fa-brands fa-facebook-f"></i></div>
+					<div><i class="fa-brands fa-linkedin-in"></i></div>
+					<div><i class="fa-brands fa-youtube"></i></div>
+				</div>
+			</div>
+			<div class="footer-text-box">
+				<dir class="footer-text-calendar"><a href="#">Ⓒ 2023 SEAVANTAGE INC. ALL RIGHTS RESERVED</a></dir>
+				<div class="footer-text-privacy">
+					<a href="#">개인정보처리방침</a>
+					<a href="#" style="padding-left: 86px;">서비스이용약관</a>
+					<a href="#" style="padding-left:70px;">​마케팅동의</a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
